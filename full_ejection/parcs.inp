@@ -5,7 +5,7 @@ CNTL
       core_power   0.0001 !in %
 !                  bank1 bank2 bank3 bank4 bank5 bank6 bank7 bank8
       bank_pos     0.    0.    0.    228.  0.    228.  0.    0.
-      transient    F
+      transient    T
 !      search       ppm
      ppm          1128.64
 !                    input  iteration     planar                   adj

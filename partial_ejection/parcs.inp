@@ -4,10 +4,10 @@ CASEID neacrpC1              Neacrp Case C1
 CNTL
       core_power   0.0001 !in %
 !                  bank1 bank2 bank3 bank4 bank5 bank6 bank7 bank8
-      bank_pos     0.    0.    0.    228.  0.    228.  0.    0.
-      transient    F
-!      search       ppm
-     ppm          1128.64
+      bank_pos     0.    0.    0.    228.  0.    228.  0.    76.
+      transient    T
+!     search       ppm
+      ppm          1147.96
 !                    input  iteration     planar                   adj
 !                     edit      table      power        pin       reac
       print_opt          F          F          F          F          T
@@ -113,7 +113,7 @@ TH
 !******************************************************************************
 TRAN
       time_step    10.00 0.005 1.0  10.0 !tend,delt0,tswitch,texpand
-      move_bank    8  0.0 0.0   0.1 228.0
+      move_bank    8  0.0 76.0   0.1 228.0
       conv_tr      0.001              !eps_r2
       eps_xsec     0.1
       expo_opt     T  T

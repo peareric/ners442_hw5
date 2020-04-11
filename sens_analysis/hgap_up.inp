@@ -105,7 +105,7 @@ TH
       pin_dim      4.1195 4.7585 0.571 6.1295 !pin radii, rs,rw,tw, and rgt in mm
       flow_cond    286.0 82.12102             !tin,cmfrfa(Kg/sec)
       gamma_frac   0.019                      !direc heating fraction
-      hgap         11000.                     !hgap(w/M^2-C)
+      hgap         15000.                     !hgap(w/M^2-C)
       n_ring       10                         !number of meshes in pellet
       thmesh_x     17*2                       !Number of T/H Nodes per FA in X-dir
       thmesh_y     1   8*2                    !Number of T/H Nodes per FA in y-dir

@@ -5,7 +5,7 @@ CNTL
       core_power   0.0001 !in %
 !                  bank1 bank2 bank3 bank4 bank5 bank6 bank7 bank8
       bank_pos     0.    0.    0.    228.  0.    228.  0.    0.
-      transient    F
+      transient    T
 !      search       ppm
      ppm          1128.64
 !                    input  iteration     planar                   adj
@@ -104,7 +104,7 @@ TH
       fa_powpit    17.67516   21.606          !assembly power(Mw) and pitch(cm)
       pin_dim      4.1195 4.7585 0.571 6.1295 !pin radii, rs,rw,tw, and rgt in mm
       flow_cond    286.0 82.12102             !tin,cmfrfa(Kg/sec)
-      gamma_frac   0.019                      !direc heating fraction
+      gamma_frac   0.0171                      !direc heating fraction
       hgap         10000.                     !hgap(w/M^2-C)
       n_ring       10                         !number of meshes in pellet
       thmesh_x     17*2                       !Number of T/H Nodes per FA in X-dir
@@ -112,7 +112,7 @@ TH
       thmesh_z     1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  !junction locations
 !******************************************************************************
 TRAN
-      time_step    10.00 0.005 1.0  10.0 !tend,delt0,tswitch,texpand
+      time_step    3.00 0.005 1.0  10.0 !tend,delt0,tswitch,texpand
       move_bank    8  0.0 0.0   0.1 228.0
       conv_tr      0.001              !eps_r2
       eps_xsec     0.1
